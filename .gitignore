@@ -21,6 +21,7 @@ erl_crash.dump
 
 # Ignore package tarball (built via "mix hex.build").
 b64-*.tar
+b64
 
 
 # Temporary files for e.g. tests

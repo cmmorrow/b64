@@ -4,13 +4,25 @@ A command-line tool for working with base-64 encoded strings.
 
 ## Requirements
 
-b64 is written in Elixir and will require Elixir > 1.11.
+b64 is written in Elixir and will require Elixir > 1.10 if installed locally.
 
 ## Installation
 
+### Docker
+
+Run `docker build -t b64 .`
+Verify b64 is installed properly by running `docker run -i --rm b64 --help`.
+
+### Local
+
+Start by cloning the repo at [https://github.com/cmmorrow/b64](https://github.com/cmmorrow/b64).
+
+Run mix escript.build from the command line to build the b64 binary.
+Verify b64 is installed properly by running `./b64 --help`.
+
 ## Usage
 
-```
+```text
 Usage: b64 [--encode|--decode] [STRING]
 
   A command-line tool for working with base-64 encoded strings.
